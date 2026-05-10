@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build outputs
+DerivedData/
+build/
+*.ipa
+*.dSYM
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Firebase / local secrets
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+
+# Local environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.log
