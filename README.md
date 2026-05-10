@@ -14,7 +14,6 @@ Aplicativo iOS de finanças pessoais feito em UIKit, com autenticação via Fire
 - [Pré-requisitos](#pré-requisitos)
 - [Configuração do Firebase](#configuração-do-firebase)
 - [Como rodar](#como-rodar)
-- [Dados sensíveis](#dados-sensíveis)
 - [Solução de problemas](#solução-de-problemas)
 
 ## Sobre o projeto
@@ -172,18 +171,6 @@ xcodebuild \
   -configuration Debug \
   build
 ```
-
-## Dados sensíveis
-
-Não devem ser commitados:
-
-- `GoogleService-Info.plist`
-- `Pods/`
-- `DerivedData/`
-- arquivos `.env`
-- dados de usuário do Xcode (`xcuserdata/`)
-
-Esses arquivos já estão cobertos pelo `.gitignore`.
 
 ## Solução de problemas
 
